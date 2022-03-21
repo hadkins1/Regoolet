@@ -1,0 +1,27 @@
+#!name=hadkins1 Custom Rules
+#!desc=Some local rules that are not exist in non-editable managed profile
+
+[Rule]
+
+# SuWa Rules
+DOMAIN-SUFFIX,manhuagui.com,🎬Netflix
+DOMAIN-SUFFIX,manhuaren.com,🎬Netflix
+
+# Block List
+DOMAIN,hm.baidu.com,REJECT
+
+# Custom Rules
+DOMAIN-SUFFIX,wenku8.net,DIRECT
+DOMAIN-SUFFIX,esjzone.cc,DIRECT
+
+# > Client
+PROCESS-NAME,HealthMonitor,DIRECT
+
+# > Proxy Processes
+PROCESS-NAME,clash,DIRECT
+PROCESS-NAME,ClashX,DIRECT
+PROCESS-NAME,ClashX Pro,DIRECT
+PROCESS-NAME,ClashXR,DIRECT
+PROCESS-NAME,v2ray,DIRECT
+PROCESS-NAME,ss-local,DIRECT
+PROCESS-NAME,UUBooster,DIRECT
