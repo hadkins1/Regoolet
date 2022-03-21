@@ -3,7 +3,7 @@
 
 [Rule]
 
-# SuWa Rules
+# sw Rules
 DOMAIN-SUFFIX,manhuagui.com,🎬Netflix
 DOMAIN-SUFFIX,manhuaren.com,🎬Netflix
 
@@ -14,10 +14,10 @@ DOMAIN,hm.baidu.com,REJECT
 DOMAIN-SUFFIX,wenku8.net,DIRECT
 DOMAIN-SUFFIX,esjzone.cc,DIRECT
 
-# > Client
+# Client
 PROCESS-NAME,HealthMonitor,DIRECT
 
-# > Proxy Processes
+# Proxy Processes
 PROCESS-NAME,clash,DIRECT
 PROCESS-NAME,ClashX,DIRECT
 PROCESS-NAME,ClashX Pro,DIRECT
