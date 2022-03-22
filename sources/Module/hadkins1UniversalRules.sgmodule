@@ -1,14 +1,12 @@
-#!name=hadkins1 Custom Rules
-#!desc=Some local rules that are not exist in non-editable managed profile
+#!name=hadkins1 Universal Rules
+#!desc=Some local rules that are not exist in non-editable managed profiles
 
 [Rule]
 
-# sw Rules
-DOMAIN-SUFFIX,manhuagui.com,🎬Netflix
-DOMAIN-SUFFIX,manhuaren.com,🎬Netflix
-
 # Block List
 DOMAIN,hm.baidu.com,REJECT
+DOMAIN,www.google-analytics.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
 
 # Custom Rules
 DOMAIN-SUFFIX,wenku8.net,DIRECT

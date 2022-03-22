@@ -1,0 +1,8 @@
+#!name=hadkins1 SpeedFrog Rules
+#!desc=Some local rules to judge proxy strategies of SpeedFrog
+
+[Rule]
+DOMAIN-KEYWORD,google,🎬Youtube
+DOMAIN-SUFFIX,manhuagui.com,🎬Netflix
+DOMAIN-SUFFIX,manhuaren.com,🎬Netflix
+DOMAIN,sockets.leetcode.com,🔰国外流量
