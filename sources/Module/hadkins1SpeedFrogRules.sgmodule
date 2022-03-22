@@ -2,7 +2,19 @@
 #!desc=Some local rules to judge proxy strategies of SpeedFrog
 
 [Rule]
+# Youtube
+# remove Youtube Ads when access Youtube using a proxy which can block Youtube Ads
 DOMAIN-KEYWORD,google,🎬Youtube
+
+# manhuagui.com
+# If you don't need Netflix, you can use Netflix Policy Group for manhuagui.com
 DOMAIN-SUFFIX,manhuagui.com,🎬Netflix
+DOMAIN-SUFFIX,hamreus.com,🎬Netflix
+
+# manhuaren.com
+# If you don't need Netflix, you can use Netflix Policy Group for manhuaren.com
 DOMAIN-SUFFIX,manhuaren.com,🎬Netflix
+
+# leetcode.com
+# fixs issue of which sockets.leetcode.com connect failed all the time caused by rules in profile of suwa
 DOMAIN,sockets.leetcode.com,🔰国外流量
