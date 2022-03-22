@@ -26,6 +26,7 @@ DOMAIN,geo.yahoo.com,REJECT
 DOMAIN,beap.gemini.yahoo.com,REJECT
 DOMAIN-SUFFIX,doubleverify.com,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
+DOMAIN-SUFFIX,msn.cn,REJECT
 
 # Custom Rules
 DOMAIN-SUFFIX,wenku8.net,DIRECT
