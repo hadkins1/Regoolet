@@ -8,8 +8,8 @@ DOMAIN,bdtj.tagtic.cn,DIRECT
 DOMAIN,log.mmstat.com,DIRECT
 DOMAIN,sycm.mmstat.com,DIRECT
 # > Google
-DOMAIN-SUFFIX,blog.google // Google Blog,DIRECT
-DOMAIN-SUFFIX,googletraveladservices.com // Google Flights,DIRECT
+DOMAIN-SUFFIX,blog.google,DIRECT
+DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
 DOMAIN,clientservices.googleapis.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,dl.l.google.com,DIRECT

@@ -54,13 +54,15 @@ def l2m(file, policy, output):
     console.print(f"converting .list file: [info]{file}[/info]")
     lines = read_file(file)
     for i, l in enumerate(lines):
-        l = l.replace(" ", "").split("//")[0]
         if not start_with_one_of_tokens(l, excludeTokens):
             if not start_with_one_of_tokens(l, surgeTokens):
                 if l.startswith("."):
                     lines[i] = l.replace(".", "DOMAIN-SUFFIX,", 1)
                 else:
                     lines[i] = "DOMAIN," + l
+            lines[i] = lines[i].replace(" ", "")
+            if lines[i].find("//") != -1:
+                lines[i] = lines[i][:lines[i].index("//")]
             lines[i] = lines[i].replace("\n", "") + "," + policy + "\n"
     write_file(output, lines)
     console.print(f"[success]converted .list file to: [/success][info]{output}[/info]")
