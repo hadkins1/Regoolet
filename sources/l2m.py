@@ -20,6 +20,7 @@ def read_file(file_name):
 # write file line by line
 def write_file(file_name, lines):
     with open(file_name, 'w') as f:
+        f.write("[Rule]\n")
         for line in lines:
             f.write(line)
 

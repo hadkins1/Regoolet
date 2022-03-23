@@ -1,3 +1,4 @@
+[Rule]
 # Privacy
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,airpr.com,REJECT
