@@ -18,3 +18,31 @@ DOMAIN-SUFFIX,manhuaren.com,🎬Netflix
 # leetcode.com
 # fixs issue of which sockets.leetcode.com connect failed all the time caused by rules in profile of suwa
 DOMAIN,sockets.leetcode.com,🔰国外流量
+
+# wnacg
+# domain names of wnacg which need PROXY
+DOMAIN-SUFFIX,wnacg.org,🔰国外流量
+DOMAIN-SUFFIX,wnacg.com,🔰国外流量
+DOMAIN-SUFFIX,wnacg4.com,🔰国外流量
+DOMAIN-SUFFIX,wnacg5.com,🔰国外流量
+DOMAIN-SUFFIX,wnacgs.com,🔰国外流量
+DOMAIN-SUFFIX,wnacg1.cc,🔰国外流量
+DOMAIN-SUFFIX,hentaicomic.org,🔰国外流量
+DOMAIN-SUFFIX,hentaicomic.ru,🔰国外流量
+DOMAIN-SUFFIX,wnacgfile.com,🔰国外流量
+DOMAIN-SUFFIX,qy0.ru,🔰国外流量
+DOMAIN-SUFFIX,qy1.ru,🔰国外流量
+DOMAIN-SUFFIX,qy2.ru,🔰国外流量
+DOMAIN-SUFFIX,qy3.ru,🔰国外流量
+DOMAIN-SUFFIX,qy4.ru,🔰国外流量
+DOMAIN-SUFFIX,qy5.ru,🔰国外流量
+DOMAIN-SUFFIX,qy6.ru,🔰国外流量
+DOMAIN-SUFFIX,qy7.ru,🔰国外流量
+DOMAIN-SUFFIX,qy8.ru,🔰国外流量
+DOMAIN-SUFFIX,qy9.ru,🔰国外流量
+# domain names of wnacg which need DIRECT
+DOMAIN-SUFFIX,584624.xyz,DIRECT
+DOMAIN-SUFFIX,131403.xyz,DIRECT
+DOMAIN-SUFFIX,233302.xyz,DIRECT
+DOMAIN-SUFFIX,131405.xyz,DIRECT
+DOMAIN-SUFFIX,131401.xyz,DIRECT
