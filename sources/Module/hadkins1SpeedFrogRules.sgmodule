@@ -1,6 +1,11 @@
 #!name=hadkins1 SpeedFrog Rules
 #!desc=Some local rules to judge proxy strategies of SpeedFrog
 
+
+[Proxy Group]
+👧🏻绅士漫画 = select, 🔰国外流量, ⚓️其他流量, ✈️Telegram, 🎬Youtube, 🎬Netflix, 🎬国外媒体, 🍎苹果服务
+
+
 [Rule]
 # Youtube
 # remove Youtube Ads when access Youtube using a proxy which can block Youtube Ads
@@ -21,25 +26,25 @@ DOMAIN,sockets.leetcode.com,🔰国外流量
 
 # wnacg
 # domain names of wnacg which need PROXY
-DOMAIN-SUFFIX,wnacg.org,🔰国外流量
-DOMAIN-SUFFIX,wnacg.com,🔰国外流量
-DOMAIN-SUFFIX,wnacg4.com,🔰国外流量
-DOMAIN-SUFFIX,wnacg5.com,🔰国外流量
-DOMAIN-SUFFIX,wnacgs.com,🔰国外流量
-DOMAIN-SUFFIX,wnacg1.cc,🔰国外流量
-DOMAIN-SUFFIX,hentaicomic.org,🔰国外流量
-DOMAIN-SUFFIX,hentaicomic.ru,🔰国外流量
-DOMAIN-SUFFIX,wnacgfile.com,🔰国外流量
-DOMAIN-SUFFIX,qy0.ru,🔰国外流量
-DOMAIN-SUFFIX,qy1.ru,🔰国外流量
-DOMAIN-SUFFIX,qy2.ru,🔰国外流量
-DOMAIN-SUFFIX,qy3.ru,🔰国外流量
-DOMAIN-SUFFIX,qy4.ru,🔰国外流量
-DOMAIN-SUFFIX,qy5.ru,🔰国外流量
-DOMAIN-SUFFIX,qy6.ru,🔰国外流量
-DOMAIN-SUFFIX,qy7.ru,🔰国外流量
-DOMAIN-SUFFIX,qy8.ru,🔰国外流量
-DOMAIN-SUFFIX,qy9.ru,🔰国外流量
+DOMAIN-SUFFIX,wnacg.org,👧🏻绅士漫画
+DOMAIN-SUFFIX,wnacg.com,👧🏻绅士漫画
+DOMAIN-SUFFIX,wnacg4.com,👧🏻绅士漫画
+DOMAIN-SUFFIX,wnacg5.com,👧🏻绅士漫画
+DOMAIN-SUFFIX,wnacgs.com,👧🏻绅士漫画
+DOMAIN-SUFFIX,wnacg1.cc,👧🏻绅士漫画
+DOMAIN-SUFFIX,hentaicomic.org,👧🏻绅士漫画
+DOMAIN-SUFFIX,hentaicomic.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,wnacgfile.com,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy0.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy1.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy2.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy3.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy4.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy5.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy6.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy7.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy8.ru,👧🏻绅士漫画
+DOMAIN-SUFFIX,qy9.ru,👧🏻绅士漫画
 # domain names of wnacg which need DIRECT
 DOMAIN-SUFFIX,584624.xyz,DIRECT
 DOMAIN-SUFFIX,131403.xyz,DIRECT
