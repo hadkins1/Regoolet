@@ -41,6 +41,10 @@ DOMAIN-SUFFIX,qy6.ru,🎬Youtube
 DOMAIN-SUFFIX,qy7.ru,🎬Youtube
 DOMAIN-SUFFIX,qy8.ru,🎬Youtube
 DOMAIN-SUFFIX,qy9.ru,🎬Youtube
+# Image Server of wnacg which need PROXY
+DOMAIN-SUFFIX,qy0.ru,🎬Youtube
+# Download Server of wnacg which need PROXY
+DOMAIN-SUFFIX,wzip.ru,🎬Youtube
 # domain names of wnacg which need DIRECT
 DOMAIN-SUFFIX,584624.xyz,DIRECT
 DOMAIN-SUFFIX,131403.xyz,DIRECT
