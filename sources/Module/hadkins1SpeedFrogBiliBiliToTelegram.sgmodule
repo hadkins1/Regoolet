@@ -1,0 +1,25 @@
+#!name=hadkins1 SpeedFrog BiliBili To Telegram
+#!desc=Some contents of BiliBili needs HK or TW Proxy, We use Telegram Proxy Group of SpeedFrog here. Note: This Surge Module is only used for SpeedFrog Airport.
+
+[Rule]
+DOMAIN-KEYWORD,qiyi,✈️Telegram
+DOMAIN-SUFFIX,qy.net,✈️Telegram
+IP-CIDR,101.227.0.0/16,✈️Telegram,no-resolve
+IP-CIDR,101.224.0.0/13,✈️Telegram,no-resolve
+IP-CIDR,119.176.0.0/12,✈️Telegram,no-resolve
+DOMAIN-SUFFIX,acg.tv,✈️Telegram
+DOMAIN-SUFFIX,acgvideo.com,✈️Telegram
+DOMAIN-SUFFIX,b23.tv,✈️Telegram
+DOMAIN-SUFFIX,bigfun.cn,✈️Telegram
+DOMAIN-SUFFIX,bigfunapp.cn,✈️Telegram
+DOMAIN-SUFFIX,biliapi.com,✈️Telegram
+DOMAIN-SUFFIX,biliapi.net,✈️Telegram
+DOMAIN-SUFFIX,bilibili.com,✈️Telegram
+DOMAIN-SUFFIX,bilibili.tv,✈️Telegram
+DOMAIN-SUFFIX,biligame.com,✈️Telegram
+DOMAIN-SUFFIX,biligame.net,✈️Telegram
+DOMAIN-SUFFIX,bilivideo.com,✈️Telegram
+DOMAIN-SUFFIX,hdslb.com,✈️Telegram
+DOMAIN-SUFFIX,im9.com,✈️Telegram
+DOMAIN,upos-hz-mirrorakam.akamaized.net,✈️Telegram
+DOMAIN-SUFFIX,smtcdns.net,✈️Telegram

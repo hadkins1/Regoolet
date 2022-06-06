@@ -1,0 +1,8 @@
+#!name=hadkins1 SpeedFrog BAHAMUTE To Telegram
+#!desc=BAHAMUTE needs TW Proxy, We use Telegram Proxy Group of SpeedFrog here. Note: This Surge Module is only used for SpeedFrog Airport.
+
+[Rule]
+DOMAIN-SUFFIX,bahamut.com.tw,✈️Telegram
+DOMAIN-SUFFIX,gamer.com.tw,✈️Telegram
+DOMAIN,gamer-cds.cdn.hinet.net,✈️Telegram
+DOMAIN,gamer2-cds.cdn.hinet.net,✈️Telegram
