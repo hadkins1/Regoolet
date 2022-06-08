@@ -776,7 +776,6 @@ DOMAIN-KEYWORD,torrent,DIRECT
 
 # Custom Rules
 DOMAIN-SUFFIX,wenku8.net,DIRECT
-DOMAIN-SUFFIX,esjzone.cc,DIRECT
 
 # Client
 PROCESS-NAME,HealthMonitor,DIRECT
