@@ -776,6 +776,7 @@ DOMAIN-KEYWORD,torrent,DIRECT
 
 # Custom Rules
 DOMAIN-SUFFIX,wenku8.net,DIRECT
+DOMAIN-SUFFIX,wenku8.com,DIRECT
 
 # Client
 PROCESS-NAME,HealthMonitor,DIRECT
