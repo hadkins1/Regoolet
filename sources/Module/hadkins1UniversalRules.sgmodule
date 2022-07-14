@@ -406,7 +406,7 @@ DOMAIN-SUFFIX,ero-advertising.com,REJECT
 DOMAIN-SUFFIX,exdynsrv.com,REJECT
 DOMAIN-SUFFIX,exosrv.com,REJECT
 DOMAIN-SUFFIX,go2cloud.org,REJECT
-DOMAIN-SUFFIX,growingio.com,REJECT
+# DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,haloapps.com,REJECT
 DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 DOMAIN-SUFFIX,hypers.com,REJECT
